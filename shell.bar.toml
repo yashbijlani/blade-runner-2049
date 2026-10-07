@@ -1,0 +1,9 @@
+# The bar is the top edge of a night city: near-black, quiet, no glow.
+background       = "#07090D"
+background-alpha = 1.0
+text             = "#C8D0D4"
+# Omarchy shares this token between recording, updates, and other alerts.
+active           = "#E06B32"
+scale-with-font  = true
+size-horizontal  = 28
+size-vertical    = 30

@@ -1,0 +1,29 @@
+# A complete section: Omarchy replaces each shell.<section>.toml section.
+# Idle chrome is brushed steel; focus and selection are the one warm light
+# in the room, a sodium border that never fills more than a wash.
+normal-color        = "#C8D0D4"
+normal-fill-alpha   = 0.04
+normal-border       = "#59636A"
+normal-border-width = 1
+normal-border-alpha = 0.60
+
+hover-cursor-color        = "#D8DEE2"
+hover-cursor-fill-alpha   = 0.08
+hover-cursor-border       = "#66B6C9"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.9
+
+focus-color        = "#D8DEE2"
+focus-fill-alpha   = 0.10
+focus-border       = "#E06B32"
+focus-border-width = 2
+focus-border-alpha = 1.0
+
+selected-color        = "#D8DEE2"
+selected-fill-alpha   = 0.20
+selected-border       = "#E06B32"
+selected-border-width = 1
+selected-border-alpha = 0.85
+
+pressed-fill-alpha   = 0.22
+selection-fill-alpha = 0.30

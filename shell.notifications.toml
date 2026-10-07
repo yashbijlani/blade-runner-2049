@@ -1,0 +1,9 @@
+# Toasts land on a cold cyan edge that bleeds toward Joi's magenta; the
+# countdown drains in the same cyan.
+background       = "#07090D"
+background-alpha = 1.0
+text             = "#C8D0D4"
+border           = "rgba(66B6C9cc) rgba(E34B91aa) 45deg"
+border-alpha     = 0.95
+border-width     = 1
+countdown        = "#66B6C9"

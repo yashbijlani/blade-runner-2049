@@ -1,0 +1,13 @@
+# Lock input card. Idle border is steel; the moment you type it takes the
+# sodium edge, and a wrong passphrase flashes the only true red in the film.
+background       = "#07090D"
+background-alpha = 0.85
+text             = "#BFC7CC"
+placeholder      = "#59636A"
+text-error       = "#D94B45"
+border           = "#59636A"
+border-active    = "#E06B32"
+border-error     = "#D94B45"
+border-alpha     = 1.0
+selection        = "#1B252D"
+selection-alpha  = 1.0

@@ -1,0 +1,15 @@
+# The launcher card floats over a darkened street; its edge carries the same
+# sodium-to-magenta neon as the Hyprland border, and selection is a wet steel
+# slab lit along one edge by that neon.
+background                = "#07090D"
+background-alpha          = 0.96
+text                      = "#C8D0D4"
+border                    = "rgba(E06B32cc) rgba(E34B91cc) 45deg"
+border-alpha              = 0.9
+scrim                     = "#04060A"
+scrim-alpha               = 0.66
+selected-background       = "#1B252D"
+selected-background-alpha = 1.0
+selected-text             = "#D8DEE2"
+selected-border           = "rgba(E34B91ee)"
+selected-border-alpha     = 1.0

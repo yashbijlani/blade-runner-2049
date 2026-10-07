@@ -1,0 +1,8 @@
+# Bar flyouts (dropdowns, OSD) keep a cool steel edge that fades through
+# cyan, no orange chrome.
+background       = "#07090D"
+background-alpha = 1.0
+text             = "#C8D0D4"
+border           = "rgba(66B6C9aa) rgba(59636Acc) 45deg"
+border-alpha     = 0.85
+border-width     = 1

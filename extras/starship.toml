@@ -1,0 +1,43 @@
+# Blade Runner 2049 — optional Starship prompt.
+#
+# Starship colors are NOT generated from Omarchy's colors.toml, so the
+# stock prompt stays cyan in every theme. This file is the opt-in retint:
+# sodium-orange prompt, weathered-teal paths, muted-red errors.
+#
+# To use it, review it and copy it over your own config yourself:
+#   cp ~/.config/omarchy/themes/blade-runner-2049/extras/starship.toml ~/.config/starship.toml
+#
+# Nothing in the theme installs it automatically.
+
+add_newline = true
+command_timeout = 200
+format = "[$directory$git_branch$git_status]($style)$character"
+
+[character]
+error_symbol = "[✗](bold #D94B45)"
+success_symbol = "[❯](bold #E06B32)"
+
+[directory]
+truncation_length = 2
+truncation_symbol = "…/"
+repo_root_style = "bold #5FA7B8"
+repo_root_format = "[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style) "
+
+[git_branch]
+format = "[$branch]($style) "
+style = "italic #5FA7B8"
+
+[git_status]
+format     = '[$all_status]($style)'
+style      = "#5FA7B8"
+ahead      = "⇡${count} "
+diverged   = "⇕⇡${ahead_count}⇣${behind_count} "
+behind     = "⇣${count} "
+conflicted = " "
+up_to_date = " "
+untracked  = "? "
+modified   = " "
+stashed    = ""
+staged     = ""
+renamed    = ""
+deleted    = ""

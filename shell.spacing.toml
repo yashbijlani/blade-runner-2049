@@ -1,0 +1,4 @@
+# A touch tighter than stock: the film's interfaces are cramped, functional,
+# and calm. Keep proportions; just pull everything in slightly.
+scale = 0.96
+scale-with-font = true

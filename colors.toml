@@ -1,0 +1,69 @@
+# Blade Runner 2049 (2017)
+# A monochrome of dust: night sky, wet steel, sodium haze, and the cold
+# spill of a holodeck. Sixty-nine percent of the frame is near-black blue;
+# the amber only ever touches the edges. Nothing here glows for its own
+# sake — every color has a source in the world.
+
+mode = "dark"
+
+accent = "#E06B32"
+cursor = "#D8DEE2"
+selection = "#1B252D"
+muted = "#59636A"
+
+background = "#07090D"
+dark_background = "#0B1118"
+darker_background = "#04060A"
+lighter_background = "#101923"
+
+foreground = "#C8D0D4"
+dark_foreground = "#59636A"
+light_foreground = "#BFC7CC"
+bright_foreground = "#D8DEE2"
+
+selection_foreground = "#D8DEE2"
+selection_background = "#1B252D"
+
+# The window edge is the only place the orange is allowed to burn; it runs
+# through Joi's magenta and cools to cyan along the diagonal like a
+# refraction off wet glass.
+hyprland_active_border = "rgba(E06B32e6) rgba(E34B91cc) rgba(5FA7B8cc) 45deg"
+hyprland_inactive_border = "rgba(101923cc)"
+active_border_color = "#E06B32"
+active_tab_background = "#B84A24"
+
+# Syntax stays in-world: sodium lamps, weathered teal, a wall of pink neon
+# seen once at the far end of a street. Success reads cyan because in this
+# film even "good" is cold.
+red = "#D94B45"
+yellow = "#F09A4A"
+orange = "#E06B32"
+green = "#66B6C9"
+cyan = "#66B6C9"
+blue = "#3F7C91"
+magenta = "#E34B91"
+brown = "#A95D38"
+
+bright_red = "#EC6A63"
+bright_yellow = "#F7B26A"
+bright_green = "#86CBD8"
+bright_cyan = "#86CBD8"
+bright_blue = "#5C9BB0"
+bright_magenta = "#EE6FA8"
+
+color0 = "#07090D"
+color1 = "#D94B45"
+color2 = "#66B6C9"
+color3 = "#F09A4A"
+color4 = "#3F7C91"
+color5 = "#E34B91"
+color6 = "#66B6C9"
+color7 = "#C8D0D4"
+color8 = "#59636A"
+color9 = "#EC6A63"
+color10 = "#86CBD8"
+color11 = "#F7B26A"
+color12 = "#5C9BB0"
+color13 = "#EE6FA8"
+color14 = "#86CBD8"
+color15 = "#D8DEE2"

@@ -35,11 +35,14 @@ the security policy for themes from a stranger's repo). After cloning, remove
 the `.git` directory, or move it aside with `--separate-git-dir`, to keep the
 full theme.
 
-To install from a repository instead:
+To install straight from the repository:
 
 ```sh
-omarchy theme install <git-url>
+omarchy theme install https://github.com/yashbijlani/blade-runner-2049
 ```
+
+The theme is registered under the name `blade-runner-2049`, so it is then set
+with `omarchy theme set blade-runner-2049` as below.
 
 ## Activate
 

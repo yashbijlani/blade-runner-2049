@@ -89,7 +89,7 @@ too if you want the state fully gone.
 | `shell.font.toml` | Type scale root (`base-size = 12`). |
 | `icons.theme` | `Yaru-olive-dark` — muted, monochrome, in-world. |
 | `keyboard.rgb` | `E06B32` — sodium amber, for RGB-capable keyboards. |
-| `backgrounds/` | Seven real 4K (3840×2160) cinematic wallpapers (see below). |
+| `backgrounds/` | Nine cinematic wallpapers: two shipped 4K frames plus seven user-added frames (see below). |
 | `preview.png` | Selector thumbnail, cut from the wallpaper set. |
 | `extras/starship.toml` | **Opt-in** prompt retint (see below). |
 | `scripts/fetch_wallpapers.py` | Re-fetches and re-grades the wallpaper set from its recorded sources. |
@@ -97,21 +97,25 @@ too if you want the state fully gone.
 
 ## Wallpapers
 
-Seven real 3840×2160 cinematic frames of the film's world, each fetched
-from wallhaven.cc and passed through one light, in-world grade (a shallow
-contrast curve, a cyan-shadow/sodium-highlight split-tone, a soft vignette
-and fine grain — no scanlines, no glitch). The grade is deliberately
-restrained: the sources are already graded, the theme only nudges them.
+The set is two of the 4K frames the theme shipped with (Wallace Hall, the
+protein farm) plus seven cinematic frames the user added. Files are
+numbered `01`–`09` so the cycle order is stable.
 
-1. `1-los-angeles-night` — the city under sodium haze
-2. `2-k-ryan-gosling` — **K (Ryan Gosling)** in the neon street
-3. `3-joi-neon` — a graphic neon portrait of Joi
-4. `4-sapper-farm` — the lone tree on the protein farm
-5. `5-k-rain` — **K** in the rain below a passing spinner (also the preview)
-6. `6-wallace-hall` — the silent hall of light and reflection
-7. `7-joi-ana-de-armas` — **Joi (Ana de Armas)** in pink and cyan light
+1. `01-wallace-hall` — the silent hall of light and reflection
+2. `02-joi-hologram` — Joi's hologram in pink and blue
+3. `03-joi-table` — Joi at the table in daylight
+4. `04-amber-corridor` — a corridor of sodium light
+5. `05-solar-field` — the solar array seen from above
+6. `06-la-skyline` — the city skyline under dust and spinners
+7. `07-desert-spinner` — K and the spinner in the orange waste
+8. `08-hall-staircase` — the golden stair of Wallace's hall
+9. `09-sapper-farm` — the lone tree on the protein farm
 
-Re-fetch and re-grade them (Python 3 + Pillow + NumPy, network required):
+The seven user-added frames are plain images the theme does not track or
+re-download. The Wallace Hall and sapper-farm frames come from the original
+fetched set; the script below regenerates that full seven-frame set (Python
+3 + Pillow + NumPy, network required), which will also restore the frames no
+longer used here:
 
 ```sh
 python3 ~/.config/omarchy/themes/blade-runner-2049/scripts/fetch_wallpapers.py
